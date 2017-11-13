@@ -1,0 +1,161 @@
+h3 {
+  color: #345FBD;
+  font-size: 18pt;
+}
+
+.discussion-body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.discussion-divider {
+  height: 1px;
+  background-color: #e5e5e5;
+  margin-bottom: 20px;
+}
+
+.discussion-icon {
+  float: left;
+  margin-top: 3px;
+}
+
+.discussion-row {
+  padding-top: 20px; padding-bottom: 20px;
+  margin: 0px;
+}
+
+.discussion-title {
+  margin-left: 50px;
+  color: #345FBD;
+  font-size: 14pt;
+}
+
+.graphic-steps {
+  text-align: center;
+
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.graphic-steps-image-container {
+  width: 176px;
+  height: 176px;
+  background-color: white;
+  border-radius: 88px;
+  border: 1px solid #d6d6d6;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.graphic-steps-image-container img {
+  margin-top: 44px;
+}
+
+.graphic-steps-image-line {
+  height: 1px;
+  background-color: #d6d6d6;
+  position: relative;
+  top: 88px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.graphic-steps-image-header {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #666666;
+}
+
+.login-container {
+  background-color: #f9f9f9;
+  padding: 40px 20%;
+}
+
+.login-error-message {
+  margin-top: 20px;
+  color: red;
+  display: none;
+  font-size: 1.2em;
+}
+
+.login-header-icon {
+  width: 18px;
+  float: left;
+  margin-top: 5px;
+}
+
+.register-terms-agree {
+  float: left;
+}
+
+.register-terms-body {
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  width: 100%;
+  padding: 20px;
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.register-button {
+  font-size: 16px;
+  font-weight: 500;
+  float: right;
+  margin-top: -5px;
+}
+
+.register-response {
+  margin-top: 20px;
+  display: none;
+  font-size: 1.2em;
+}
+
+.register-terms-icon {
+  width: 18px;
+  float: left;
+  margin-top: 6px;
+}
+.register-terms-title {
+  color: #345FBD;
+  font-size: 14pt;
+  margin-left: 15px;
+}
+
+@media (max-width: 991px) {
+  .graphic-steps-image-line {
+    display: none;
+  }
+
+  .graphic-steps-image-container {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #d6d6d6;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
+  .graphic-steps-image-container img {
+    margin-top: 25px;
+    width: 50%;
+    height: 50%;
+  }
+
+  .graphic-steps-image-header {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 448px) {
+  .register-terms-agree {
+  float: none;
+}
+  .register-button {
+    float: none;
+    margin-top: 10px;
+  }
+}

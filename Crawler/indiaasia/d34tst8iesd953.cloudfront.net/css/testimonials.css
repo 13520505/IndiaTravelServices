@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 1, 2017, 7:03:06 PM
+    Author     : demetri
+*/
+
+.author {
+  font-weight: 500;
+  color: #858585;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  float: left;
+  border-radius: 75px;
+  background-repeat: no-repeat;
+}
+
+.site-name {
+  text-align: right;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.review-body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.review-content {
+  margin-left: 165px;
+}
+
+.review-title {
+  margin-right: 125px;
+  color: #5072b6;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.stars {
+  max-width: 120px;
+  float: right;
+  margin-left: -4px;
+  font-size: 20px;
+  color: green;
+}
+
+.testimonial {
+  border-radius: 0px;
+  min-height: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: auto;
+}
+
+.waterfall-container {
+  margin-right: -20px; /*Adjust for margin-right on containers*/  
+}
+
+@media(max-width:530px) {
+  .stars {
+    float: left;
+  }
+  .review-title {
+    margin-right: 0px;
+    clear: both;
+  }
+  .review-content {
+    margin-left: 0px;
+  }
+  .avatar {
+    display: none;
+    float: none;
+  }
+}

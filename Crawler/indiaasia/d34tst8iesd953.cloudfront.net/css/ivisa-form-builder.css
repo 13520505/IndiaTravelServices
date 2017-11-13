@@ -1,0 +1,141 @@
+.ivisa-missing-required { border: 3px solid red }
+.ivisa-form-section { margin: 10px 0; }
+.ivisa-hidden { display: none !important }
+.ivisa-clickable { cursor:pointer }
+.ivisa-prevent-submission-message { background-color: red }
+.ivisa-fieldset-entry { border: 1px solid black; margin:4px 0 }
+.ivisa-image-upload-preview img { max-width: 100% }
+.ivisa-text-uppercase { text-transform: uppercase }
+
+.ivisa-tooltip { font-size:12px; padding-left:1px; cursor:pointer }
+.ivisa-order-form .popover { cursor:pointer; font-size:13px }
+.ivisa-order-form .popover ul { -webkit-padding-start: 10px; }
+.ivisa-applicant-fields { margin-bottom: 25px }
+.ivisa-applicant-fields label { font-size:14px; height: 45px; display: table-cell; vertical-align: bottom; }
+.ivisa-applicant-fields input { padding:5px; padding-right: 0; padding-left: 1px; height: 30px; font-size: 12px; line-height: 1.5; border-radius: 3px; }
+.ivisa-applicant-fields select { height: 30px; padding: 5px 10px; font-size: 12px; line-height: 30px; border-radius: 3px; }
+.ivisa-applicant-fields .col-md-1, .ivisa-applicant-fields .col-md-2, .ivisa-applicant-fields .col-md-3 { padding-right:0 }
+
+.ivisa-order-form h1 { font-weight: normal; font-size:26px; color: #1483CA; }
+.ivisa-order-form h3 { font-weight: normal; font-size:23px; color: #1483CA; }
+.ivisa-gray-background { background-color: #f8f8f8; border-top:1px solid #d9dde0; border-bottom:1px solid #d9dde0 }
+.ivisa-input-wrapper { margin-bottom: 15px } 
+
+.ivisa-applicant-fields .ivisa-input-checkbox { height: auto }
+.ivisa-applicant-fields .ivisa-label-for-checkbox { display:inline }
+.ivisa-delivery-row { }
+.ivisa-delivery-options-wrapper { margin-right:0; margin-left:1px }
+.ivisa-delivery-options-wrapper .col-md-4 { padding: 0; margin-right: 0px; }
+.ivisa-delivery-options-wrapper .col-md-4 .row { margin: 0; }
+.ivisa-delivery-option-rush { background-color: #ededed; }
+.ivisa-delivery-option-super_rush { background-color: #e5e5e5; }
+.ivisa-delivery-option { font-size:13px; border-left:1px solid #e0e0e0; border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0; padding: 30px 0 }
+.ivisa-delivery-option .col-xs-11 { min-height:75px; margin-left:-5px; margin-top: 17px; }
+.ivisa-delivery-option .col-xs-1 { z-index: 1030 }
+.ivisa-delivery-option input { display:inline-block; vertical-align: middle; width:16px; height:16px; color:white; margin-top:20px; }
+.ivisa-delivery-option .popover { color: black }
+.ivisa-delivery-option-header {font-size:15px; font-weight:bold; color:#238bcd; margin-bottom:10px }
+.ivisa-modify-application { color: #05a7e8; font-variant: small-caps; cursor:pointer }
+
+.ivisa-total-price { font-weight:bold; font-size:36px; color: #1483CA }
+.ivisa-submit-step1-button { font-size:26px }
+.ivisa_submit_error_message { margin:5px 0; padding:15px; background-color:#f2dede; color:#a94442; border-radius:4px; text-align:left; transition: 1s opacity }
+.ivisa_submit_success_message { margin:5px 0; padding:15px; background-color:#dff0d8; color:#3c763d; border-radius:4px; text-align:left; }
+.ivisa-verify-field-name { font-weight:bold; text-align:right }
+.ivisa-dprow { margin-top:10px }
+.ivisa-dprow select { height:auto; padding:4px 12 }
+.ivisa-submit-spinner { width: 50px; margin-right: 10px }
+.ivisa-row-divider-top { border-top: 1px solid #d9dde0; margin-top:10px; padding-top:15px }
+.ivisa-row-divider-top.ivisa-hide-divider { border-top:none; margin-top:0; padding-top:0 }
+.ivisa-row-divider-bottom { border-bottom: 1px solid #d9dde0; }
+.ivisa-row-divider-bottom.ivisa-hide-divider { border-bottom: none }
+.ivisa-order-form .form-control[readonly] { cursor: pointer !important; background-color: white }
+.ivisa-radio-text { height:30px; display:inline-block; vertical-align:bottom; padding-right: 20px }
+
+
+.ivisa-step-num { font-weight:bold; color: #45bdf1 }
+
+.ivisa-save-application-btn { color:white; background-color: #1483CA  }
+
+.ivisa-submit-completed-application-btn { font-size:16px; }
+.ivisa-submit-completed-application-btn a { margin-bottom:20px; margin-left:10px } 
+
+.ivisa-paypal-wrapper { padding: 35px 0 20px 0 }
+.ivisa-or-circle {position: relative; border: 2px solid #EBEBEB; border-radius: 100%; width: 50px; line-height: 50px; text-align: center; margin-top: 50px; background-color: #fff; z-index: 2;}
+.ivisa-or-circle:first-child {margin-top: 70px;}
+.ivisa-or-circle:before {position: absolute; border: 1px solid #EBEBEB; width: 0; height: 50px; display: block; content: ''; left: 50%; z-index: 1; top: -50px; margin-left: -1px;}
+.ivisa-or-circle:after  {position: absolute; border: 1px solid #EBEBEB; width: 0; height: 50px; display: block; content: ''; left: 50%; z-index: 1; top: 50px; margin-left: -1px;}
+
+.ivisa-file-upload-btn { position: relative; overflow: hidden; margin: 10px; }
+.ivisa-file-upload-btn input { position: absolute; top: 0; right: 0; height:100%; margin: 0; padding: 0; font-size: 20px; cursor: pointer; opacity: 0; filter: alpha(opacity=0); }
+.ivisa-example-upload img { margin: 10px 0; max-width:95% }
+.ivisa-uploader-widget .popover { max-width: 475px }
+.ivisa-uploader-col1 {min-height:150px;border-right:2px solid #E9E9E9; padding-right:0; padding-left:20px; text-align:center}
+.ivisa-doc-upload-tabs { margin-top:-1px; margin-left:-1px; text-align:left }
+.ivisa-doc-upload-tabs li { display:inline-block !important; width: 142px !important; margin:0 !important }
+.ivisa-doc-upload-tabs li a { padding-left: 0; margin-left:0px; width: 140px; }
+.ivisa-upload-widget-wrapper .tab-pane {padding-top:20px; padding-right:10px}
+.ivisa-explainer-wrapper { display:inline-block; margin-left:5px }
+
+/** ---START-- iVisa Steps / Number Progress Bar for Multipart Sections **/
+.ivisa-steps>ul>li>a{position:relative;display:block;color:#b1c2c6;}
+.ivisa-steps>ul>li>a:after{content:"";position:absolute;width:2px;top:-8px;bottom:-8px;left:17px;background-color:#dde4e6;}
+.ivisa-steps>ul>li>a>.number{position:relative;z-index:2;background-color:#D9534F;font-size:14px;width:36px;height:36px;border-radius:50%;font-weight:700;text-align:center;color:white;}
+.ivisa-steps>ul>li>a>.number:after{font-family:'Glyphicons Halflings';font-size:13px;font-weight:400;color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);}
+.ivisa-steps>ul>li>a>.number:after{content:"\e014";}
+.ivisa-steps>ul>li.current>a>.number{ background-color:#1483CA; color: white;  }
+.ivisa-steps>ul>li.done>a>.number{font-size:0;background-color:#23CD7C;}
+.ivisa-steps>ul>li.done>a>.number:after{content:"\e013";}
+.ivisa-steps a:hover { text-decoration:none !important; }
+.ivisa-steps { width: 70% }
+.ivisa-steps>ul{display:table;width:100%;table-layout:fixed;}
+.ivisa-steps>ul>li{display:table-cell;width:auto;vertical-align:top;  text-align:center }
+.ivisa-steps>ul>li>a:after{width:auto;height:2px;top:20px;bottom:auto;left:0;right:0;}
+.ivisa-steps>ul>li:first-child>a:after{top:20px;left:50%;}
+.ivisa-steps>ul>li:last-child>a:after{top:20px;right:50%;}
+.ivisa-steps>ul>li>a>.number,.ivisa-steps>ul>li>a>.title{display:block;margin:0 auto;}
+.ivisa-steps>ul>li>a>.number{width:42px;height:42px;line-height:42px;}
+/** ---END--- iVisa Steps **/
+
+/** ---START--- iVisa Progress Arrow Box **/
+.ivisa-arrow-container { height: 20px; padding: 0; box-shadow: inset rgba(0,0,0,0.2) 0px 1px 2px; margin: 10px 0; overflow: hidden; border-radius: 5px;}
+.ivisa-arrow-box { height:20px;  float:left;  position: relative;  background: #F3F3F3; text-align: center; margin-top: 1px;}
+.ivisa-arrow-status { font-size: 13px; margin-top: 1px; }
+
+.ivisa-arrow-box-active { color: white; background-color: #337ab7 }
+.ivisa-arrow-box-inactive { color: #337ab7; }
+.ivisa-arrow-box-middle { border-right: 1px solid rgba(0,0,0,0.1); }
+
+@media(max-width: 750px) {
+  .ivisa-arrow-container { height: 60px; }
+  .ivisa-arrow-box { width: 100% !important; }
+  .ivisa-arrow-status { margin-top: 2px; font-size: 12px }
+  .ivisa-arrow-box-middle { border-right: none; }
+}
+/** ---END--- iVisa Progress Arrow Box **/
+
+
+@media (max-width: 991px){ /* Bootstrap-small */
+  .ivisa-or-circle { margin:0 }
+  .ivisa-or-circle:first-child {margin-top: 0px;}
+  .ivisa-or-circle:before { height:0 }
+  .ivisa-or-circle:after { height:0 }
+}
+
+@media (min-width: 768px){ /* iPad-Portrait+ */
+  .ivisa-order-form .popover {min-width: 300px;}
+}
+
+@media (min-width: 992px){ /* iPad-Landscape+  (nav menu not collapsed) */
+  .ivisa-delivery-option-rush, .ivisa-delivery-option-super_rush { margin-left: -5px }
+  .ivisa-text-right-md { text-align:right }
+}
+
+@media (min-width: 1024px){
+  .ivisa-order-form .container { padding: 0 }
+}
+
+
+/** --- 3rd Party Libraries **/
+.intl-tel-input { display:block }
+.modal-backdrop.in { z-index:1039 !important; height: 100% !important }

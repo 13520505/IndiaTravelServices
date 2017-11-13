@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.indiaivisa.com	TRUE	/	FALSE	1999999999	docadv	4b172fjgo8cr6iflc11600bam4
+www.indiaivisa.com	TRUE	/	FALSE	1999999999	user[entry_url]	%2F
+

@@ -1,0 +1,141 @@
+body {
+  color: #818181;
+}
+
+.action-button {
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: #52D03E;
+  border: 1px solid #52D03E;
+}
+
+.action-button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #4ABA38;
+}
+
+.action-button:active {
+  text-decoration: none;
+  color: white;
+  background-color: #4ABA38;
+}
+
+.application-requirements { text-align: left; }
+.application-requirements-icon { float: right; }
+.application-requirements-icon img { margin-top: 34px; }
+
+.error-message {
+  margin-top: 20px;
+  color: red;
+  display: none;
+  font-size: 1.2em;
+}
+
+.full-width-container {
+  /* Used to get a contianer that looks full-width */
+  background-color: #f9f9f9;
+  padding: 20px 50px;
+}
+
+.full-width-divider {
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+.header {
+  text-align: center;
+  color: #345FBD;
+  font-weight: 500;
+  font-size: 20pt;
+}
+
+.header-spacer {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 165px;
+  height: 2px;
+  background-color: #e5e5e5;
+}
+
+.image-header {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #666666;
+}
+
+#visa-result-section thead { font-weight:normal; color:black; background-color:#f5f5f5; }
+#visa-result-section th { font-weight:normal; color:black; vertical-align: middle; border: 1px solid #e5e5e5; }
+tr.visa-requirements-header-row { background-color:transparent }
+.visa-requirements-table { border: 1px solid #e5e5e5;  border-collapse: collapse; border-radius: 4px; text-align: left; margin: 0}
+.visa-requirements-table tr.visareq { background-color: white; }
+.visa-requirements-table tr.visareq td { vertical-align: middle; border: 1px solid #e5e5e5; }
+
+.top-section {
+  background-color: #f9f9f9;
+  text-align: center;
+
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.top-section-image-container {
+  width: 176px;
+  height: 176px;
+  background-color: white;
+  border-radius: 88px;
+  border: 1px solid #d6d6d6;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.top-section-image-container img {
+  margin-top: 44px;
+}
+
+top-section-image-description {
+  /* used for media selector below */
+}
+
+.top-section-image-line {
+  height: 1px;
+  background-color: #d6d6d6;
+  position: relative;
+  top: 88px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.top-paragraph {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 991px) {
+  .application-requirements { text-align: center; }
+  .application-requirements-icon { display: none; }
+  .top-section-image-line {  display: none; }
+
+  .top-section-image-container {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #d6d6d6;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
+  .top-section-image-container img {
+    margin-top: 25px;
+    width: 50%;
+    height: 50%;
+  }
+
+  .top-section-image-description {
+    margin-bottom: 25px;
+  }
+}

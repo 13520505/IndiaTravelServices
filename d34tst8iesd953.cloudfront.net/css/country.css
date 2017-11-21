@@ -1,0 +1,250 @@
+
+html {
+position: relative;
+min-height: 100%;
+}
+
+#page-wrapper { padding-bottom:20px }
+
+body {
+  background-color: white;
+  font-family: 'Roboto', 'HelveticaNeue', sans-serif;
+}
+
+h1, h2, h3, h4 { color: #1483CA }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-weight:bold }
+
+
+.bold,.text-bold { font-weight:bold }
+.center, .text-center { text-align:center }
+.underline, .text-underline { text-decoration: underline; }
+.blue { color: #1483CA }
+.blue2 { color: #45bdf1 }
+.white { color: white }
+.orange { color: #F17106 }
+.bg-orange { background-color: #F17106; color: white }
+
+.ivisa-hidden { display: none !important }
+
+.text-uppercase { text-transform: uppercase }
+
+.clickable { cursor:pointer}
+.bg-dark-blue { background-color: #002B7E !important; color:white }
+.caps { text-transform: uppercase}
+
+.rounded-shadow {border-radius: 6px; box-shadow: 0px 0px 18px 0px rgba(15, 17, 15, 0.12) }
+.country-flag {  border-radius: 6px; box-shadow: 0px 0px 18px 0px rgba(15, 17, 15, 0.3); margin:12px; width:58px; height:38px }
+
+.modal-title { color: black }
+
+#main_banner { min-height:150px; }
+.row-centered { text-align:center; }
+.col-centered { display:inline-block; float:none; text-align:left; margin-right:-4px; vertical-align:top; }
+
+/* Navigation */
+
+#main_header_nav { box-shadow: 1px 1px 10px 0px rgba(15, 17, 15, .64); }
+body .navbar { margin-bottom: 0px; border-bottom:0px }
+.navbar-default .navbar-nav>li>a { text-transform: uppercase; color: black }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover { color: #45bdf1 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover { background-color:transparent; font-weight:bold; color:  #1483CA }
+.navbar-default .navbar-nav>li>a.apply-online { background-color: #F17106 !important; color: white; font-weight:bold;}
+.navbar-default .navbar-nav>li>a.apply-online:hover { color:#FFFFA7 }
+.navbar-header a.navbar-brand { padding-top: 5px }
+#header_logo { max-width:320px }
+
+@media (min-width: 768px){ /*  Nav not collapsed */
+  .navbar-default .navbar-nav>li>a { padding-left: 10px; padding-right:10px; font-size: 15px } 
+
+  .navbar-default .navbar-nav>li>a.apply-online { padding:5px; margin-top:10px; border-radius:3px }
+}
+
+@media (max-width: 991px){
+  #header_logo { max-width:235px }
+}
+@media (max-width: 767px){ /* Nav collapsed */
+	#navbar { border: 1px solid #e7e7e7; margin-bottom: 8px }
+  ul.navbar-nav { margin-bottom: 0 }
+	#header_logo { max-width:215px }
+}
+/* -- End Navigation */
+
+/* Footer */
+
+footer.main-footer { background-color:black; color:white }
+#footer_wrapper a { color: white }
+ul#primary_footer_links>li { display: inline; border-left: 2px solid white; padding: 0 10px }
+#media_dropdown:hover { text-decoration:underline } 
+.footer .dropup li { display:list-item }
+#footer_wrapper .dropup a { color:#333; }
+.footer ul { padding-left: 0;  }
+#footer_wrapper { margin-top:20px; margin-bottom:80px }
+.footer .social { margin-right:5px  }
+
+@media (max-width: 767px){
+  #footer_wrapper { margin-bottom: 5px }
+}
+@media (min-width: 768px){
+  .footer .sticky-footer { position:fixed; width:100%; bottom:0; z-index:100; background-color:black; background-color: rgba(0,0,0,0.85) }
+}
+
+/* -- Footer */
+
+.goog-te-gadget-icon{ display:none !important;}
+
+table.why-us-table .header-row { background-color: transparent !important }
+table.why-us-table th { color:white; font-weight:normal; text-align:center }
+table.why-us-table .gov-site-head { background-color: #9F9F9F !important; color: white }
+table.why-us-table>tbody>tr:nth-child(even)>td { background-color: #EAF4FB }
+table.why-us-table>tbody>tr:nth-child(even)>td.gov-site { background-color: #F3F3F3 }
+table.why-us-table>tbody>tr:nth-child(odd)>td.gov-site { background-color: #EBEBEB }
+table.why-us-table>tbody>tr>td { border-bottom: 2px solid white }
+
+#home_about_us_paragraph p { line-height: 16px; margin-bottom:5px }
+#home_about_us_paragraph a {color: #FFAD68; text-shadow: 0px 1px 7px black }
+
+.carousel h2 { margin: 0; font-size:36px; line-height:38px }
+.carousel div.caps { font-size: 18px }
+.carousel-caption { bottom:auto; top:10px; padding:5px 10px; width:100%; left:0; right:auto; }
+.carousel-overlay { z-index:999; color:white; background-color:rgba(0,0,0, 0.5); position:absolute; bottom:0; font-weight:normal; font-size:14px; padding:8px 4px; width:100% }
+.carousel-control { z-index:1000 }
+.carousel-inner img { margin-left: auto; margin-right:auto;}
+@media (min-width: 1200px){ /* Large */
+  .carousel-control.left, .carousel-control.right { background: transparent !important; }
+  .carousel-inner .item img.background { max-height:390px; width:100%  }
+}
+@media (max-width: 1199px){
+   .carousel-inner .item img.background { max-width:none; max-height: 350px; min-height:340px }
+}
+@media (min-width: 768px){
+#slide1_apply_btn {margin:30px 0 }	
+}
+@media (max-width: 767px) {
+	.carousel-overlay { position:relative; }
+	.carousel-control { display:none !important }
+}
+
+
+.how-to-apply-sprite { background-image: url('/img/how-to-apply-sprite.png'); background-repeat:no-repeat; display:block; width: 198px; height:117px; zoom:0.8; -moz-transform:scale(0.8); -moz-transform-origin: 0 0; }
+.pg_home .how-to-apply-sprite { margin: 8px auto }
+.pg_how_it_works .how-to-apply [class*="col-"] { margin-bottom: 25px }
+.how-to-apply .caps { font-size: 18px; line-height:25px; color:black; margin:0 }
+
+.orderForm .glyphicons { font-size: 20px; margin-right:8px }
+
+.visa-date-picker table { min-width: 265px }
+.doc-upload-tabs li { display:inline-block !important; width: 142px !important; margin:0 !important }
+.doc-upload-tabs li a { padding-left: 0; margin-left:0; width: 140px }
+
+.full-width-gray-background { background-color:#f8f8f8; border-top:1px solid #d9dde0; border-bottom:1px solid #d9dde0 }
+.orderForm .container { padding: 25px 0 }
+.orderForm h3, .orderForm h4 { font-weight:normal; font-size:23px; color: #1483CA }
+
+.orderForm .applicant_num { padding-top:3px;}
+.orderForm .applicant_num span { font-size:18px; background-color:white; color:#a7a7a7; position:absolute; top:12px; padding-right:20px }
+.orderForm .applicant_num hr { border-top-color: #c4c4c4 }
+.orderForm .passport_photo_upload_wrapper .default_img_passport_photo { margin-left:auto; margin-right:auto }
+.delivery-option { border-radius:6px; padding-top: 1px; padding-bottom:0px; vertical-align:middle; margin-bottom:5px }
+.delivery-option .col-xs-11 { min-height:75px; margin-left:-5px }
+.delivery-option .col-xs-1 { z-index: 1030 }
+.delivery-option input { display:inline-block; vertical-align: middle; width:16px; height:16px; color:white; margin-top:20px; }
+.delivery-option .popover { color: black }
+select.yesnoselect { margin-bottom:12px }
+
+ input.ng-invalid-email, input.ng-invalid-number, input.ng-invalid-max, input.ng-invalid-min,input.ng-invalid-date { border:2px solid red }
+ .show-missing .ng-invalid-required { outline:2px solid red }
+
+
+.travelerForm .col-md-1, .travelerForm .col-md-2 { padding-right: 0 }
+.travelerForm  input { padding-right: 0; padding-left:1px }
+.travelerForm { margin-bottom:25px }
+.travelerForm label { height: 45px; display: table-cell; vertical-align:bottom}
+ .orderForm .field_name { font-weight:bold; text-align:right }
+ #review_order_info .field_value { color: #7e8891}
+.file_upload_wrapper .popover { max-width: 475px; }
+ 
+ .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th { background-color: #d9edf7 }
+ .embassy-box { font-size:12px }
+ .embassy-box ul {-webkit-padding-start: 10px;}
+ .modify_application { color: #05a7e8; font-variant: small-caps; }
+ 
+.save_application_btn { background-color: #41B3E7; color:white  }
+div.user_uploaded_img img { max-width:100% }
+.default_img_upload { display:block; margin-bottom:25px }
+.default_img_passport_scan { width: 202px; height:281px; background-image:url('/img/passport_scan_example.jpg'); }
+.default_img_passport_photo { width: 170px; height:169px; background-image:url('/img/passport_photo_example.jpg'); }
+
+h1.slider-title { font-size: 30px !important;  line-height: 26px !important;  color: #fff !important;  background: #2885c0 !important;  margin-top: 0 !important;  padding: 25px 15px !important;  position: relative !important; }
+.dprow { margin-top:10px }
+.dprow select { height:auto; padding:4px 12px; }
+input.datepicker { cursor: pointer !important; background-color: white !important; }
+.submit_spinner { width: 50px; margin-right: 10px }
+
+
+ul.faqs { list-style-type: none }
+ul.faqs li.faq-question { font-weight:bold; font-size:15px }
+ul.faqs li.faq-answer { margin: 5px 0 10px 30px;  }
+
+.fileUpload { position: relative; overflow: hidden; margin: 10px; }
+.fileUpload input.upload { position: absolute; top: 0; right: 0; height:100%; margin: 0; padding: 0; font-size: 20px; cursor: pointer; opacity: 0; filter: alpha(opacity=0); }
+
+/* -- Blog -- */
+.pg_blog_entry { background-color: #F7F7F7 }
+.blog_entry_body img { max-width:100%; display:block; margin:10px auto }
+.blog_sidebar_header { background-color:white; font-size:20px; border-left:2px solid black; padding: 5px 0 5px 15px; margin: 20px 0 10px 0 }
+.stButton .stButton_gradient { min-height: 25px }
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices { min-height:25px }
+.blog_social_sprite { background-image: url("/img/social-icons.png"); background-repeat:no-repeat; display:block; width: 48px; height:48px; float:left; margin-right:2px }
+
+/* -- END Blog -- */
+
+tr.visa-requirements-header-row { background-color: #f8f8f8; }
+.visa-requirements-table { margin-top:20px; }
+
+.visa_indicator_tag { padding: 6px 10px; max-width: 160px; margin: 5px; border-radius: 6px;  }
+.visa_price_calc_sidebar {
+	padding-top:10px; padding-bottom:10px;
+	border:1px solid #DCDBDB;
+    background: #ebf6fd; /* Old browsers */
+    background: -moz-linear-gradient(top, #ebf6fd 0%, #cde4f3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ebf6fd 0%,#cde4f3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ebf6fd 0%,#cde4f3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+@media (max-width: 767px) {
+  html { background-color: #EAEAEA; }
+  .center-xs { text-align: center }
+  
+  .orderForm .container { padding: 25px 8px }
+  
+  input, select, textarea, .input-sm, .form-control { font-size: 14px; }
+}
+@media (min-width: 768px){ /* iPad-Portrait+ */
+  .pull-right-md { float:right }
+  .carousel .top-padding { padding-top: 30px }
+  .popover { min-width: 300px }
+.visa_indicator_tag { margin-top: 75px }
+}
+@media (min-width: 768px) and (max-width: 991px){ /* iPad-Portrait but not Landscape */
+
+}
+@media (max-width: 991px){
+  .center-sm { text-align: center }
+  .margin-auto-sm { margin-left:auto; margin-right:auto }
+  .popover { cursor: pointer }
+}
+
+@media (min-width: 992px){ /* iPad-Landscape+  (nav menu not collapsed) */
+  .visa-date-picker-shift ul { left: -215px !important; }
+  .text-right-md { text-align:right }
+  select.yesnoselect { max-width: 200px }
+  .delivery-option-rush { margin-left: -5px }
+}
+
+@media (min-width: 1200px){ /* Large */
+  
+  #total_price_wrapper { margin-left: -25px }
+}
+
+
+
